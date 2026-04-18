@@ -34,8 +34,8 @@ Broadcasting: Your app silently broadcasts your unique Kairo ID into the immedia
 Scanning: Your app listens for the unique IDs of the people you have explicitly added to your "Known Friends" list.
 
 ### 4. Why We Ask for "Location" Permissions
-If we don't track your location, why does Android ask you to grant Kairo "Location" permissions?
-It is a quirk of the Android operating system. Historically, Bluetooth could be used by malicious apps to guess your location by scanning for nearby public Wi-Fi routers or beacons. Because of this, Android requires any app that uses Bluetooth scanning to ask for Location permissions.
+If we don't track your location, why does Android ask you to grant Kairo "Location" permissions?  
+It is a quirk of the Android operating system. Historically, Bluetooth could be used by malicious apps to guess your location by scanning for nearby public Wi-Fi routers or beacons. Because of this, Android requires any app that uses Bluetooth scanning to ask for Location permissions.  
 We promise that Kairo only uses this permission to operate the Bluetooth radio. We do not access your GPS hardware. Furthermore, Kairo explicitly requests zero internet permissions, meaning it is impossible for the app to send data off your device.
 
 ### 5. Security
